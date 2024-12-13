@@ -52,7 +52,8 @@ INSTALLED_APPS = [
     'ckeditor',
     'rest_framework.authtoken',
     'django_rest_passwordreset',
-    'rest_framework_simplejwt'
+    'rest_framework_simplejwt',
+    'django_extensions'
 ]
 
 AUTHENTICATION_BACKENDS = (
