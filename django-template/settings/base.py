@@ -44,6 +44,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'corsheaders',
     'users',
+    'debug_toolbar',
     'import_export',
     'django_celery_beat',
     'rest_framework',
@@ -65,6 +66,7 @@ X_FRAME_OPTIONS = 'SAMEORIGIN'
 MIDDLEWARE = [
     'corsheaders.middleware.CorsMiddleware',
     'django.middleware.security.SecurityMiddleware',
+    "debug_toolbar.middleware.DebugToolbarMiddleware",
     'whitenoise.middleware.WhiteNoiseMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',

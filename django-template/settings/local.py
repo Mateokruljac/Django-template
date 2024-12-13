@@ -13,6 +13,19 @@ FRONTEND_URL = os.environ.get("FRONTEND_URL", "http://localhost:3000")
 EMAIL_HOST = 'mailhog'
 EMAIL_PORT = '1025'
 
+
+# Configuration for debug toolbar
+INTERNAL_IPS = [
+    "127.0.0.1",
+    "localhost"
+]
+
+DEBUG_TOOLBAR_CONFIG = {
+    'SHOW_TOOLBAR_CALLBACK': lambda request: True
+}
+
+
+
 print("************************************************************")
 print("NOTE: Running in local environment.")
 print("************************************************************")

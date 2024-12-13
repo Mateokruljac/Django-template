@@ -1,0 +1,78 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="Eslint" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="HtmlUnknownTag" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="myValues">
+        <value>
+          <list size="13">
+            <item index="0" class="java.lang.String" itemvalue="nobr" />
+            <item index="1" class="java.lang.String" itemvalue="noembed" />
+            <item index="2" class="java.lang.String" itemvalue="comment" />
+            <item index="3" class="java.lang.String" itemvalue="noscript" />
+            <item index="4" class="java.lang.String" itemvalue="embed" />
+            <item index="5" class="java.lang.String" itemvalue="script" />
+            <item index="6" class="java.lang.String" itemvalue="div" />
+            <item index="7" class="java.lang.String" itemvalue="img" />
+            <item index="8" class="java.lang.String" itemvalue="form" />
+            <item index="9" class="java.lang.String" itemvalue="tr" />
+            <item index="10" class="java.lang.String" itemvalue="p" />
+            <item index="11" class="java.lang.String" itemvalue="h5" />
+            <item index="12" class="java.lang.String" itemvalue="ol" />
+          </list>
+        </value>
+      </option>
+      <option name="myCustomValuesEnabled" value="true" />
+    </inspection_tool>
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="7">
+            <item index="0" class="java.lang.String" itemvalue="psycopg2" />
+            <item index="1" class="java.lang.String" itemvalue="Django" />
+            <item index="2" class="java.lang.String" itemvalue="psycopg2-binary" />
+            <item index="3" class="java.lang.String" itemvalue="django-ratelimit" />
+            <item index="4" class="java.lang.String" itemvalue="djangorestframework" />
+            <item index="5" class="java.lang.String" itemvalue="openpyxl" />
+            <item index="6" class="java.lang.String" itemvalue="django-debug-toolbar" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="W292" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N803" />
+          <option value="N802" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="type.Queryset" />
+          <option value="django.db.models.fields.related.OneToOneField.first_name" />
+          <option value="django.db.models.fields.related.OneToOneField.last_name" />
+          <option value="django.contrib.admin.register.site" />
+          <option value="portfolio.models.SocialMedia.objects" />
+          <option value="super.save" />
+          <option value="galleries.utils" />
+          <option value="sentry_sdk.client.Client.get_group_list" />
+          <option value="django.db.models.fields.related.ManyToManyField.all" />
+          <option value="application.models.OcrReadDocument" />
+          <option value="str.get_company_name" />
+          <option value="str.full_name" />
+          <option value="bytes.get" />
+          <option value="patents.helpers.beta_datasets_actions.download_zip_file_and_unpack" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
